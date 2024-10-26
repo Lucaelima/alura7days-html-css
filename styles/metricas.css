@@ -1,0 +1,26 @@
+.metricas {
+    height: 288px;
+    display: flex;
+    justify-content: center;
+    margin: 6vw;
+    gap: 32px;
+}
+
+.metricas__resultados {
+    height: 72px;
+    width: 288px;
+}
+
+.metricas__resultados__titulo1 {
+    color: var(--vermelho);
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.metricas__resultados__titulo2 {
+    color: var(--preto);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 1rem 0;
+}

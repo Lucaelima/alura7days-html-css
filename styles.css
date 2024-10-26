@@ -1,0 +1,28 @@
+@import url("styles/cabecalho.css");
+@import url("styles/sobreNos.css");
+@import url("styles/metricas.css");
+@import url("styles/vagas.css");
+@import url("styles/depoimentos.css");
+@import url("styles/formulario.css");
+
+:root {
+    --fundo-primario: #FFFFFF;
+    --fundo-secundario: #8E24240D;
+    --fundo-terciario: #C3191908;
+    --fundo-quaternario: #F9FAFB;
+    --cinza: #667085;
+    --cinza-claro: #98A2B3;
+    --vermelho: #8E2424;
+    --preto: #101828;
+    --borda-1: #EAECF0;
+    --borda-2: #D0D5DD;
+    --font: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--fundo-primario);
+    font-family: var(--font);
+    color: var(--cinza);
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,51 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 430px;
+    background-color: var(--fundo-quaternario);
+}
+
+.formulario__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto);
+    margin-bottom: 20px;
+}
+
+.formulario__texto {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.formulario__cadastro{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.formulario__cadastro__email {
+    height: 48px;
+    width: 360px;
+    border: 1px solid var(--borda-2);
+    border-radius: 8px;
+}
+
+.formulario__cadastro__email::placeholder {
+    padding-left: 16px;
+}
+
+.formulario__cadastro__botao {
+    height: 48px;
+    width: 116px;
+    background-color: var(--vermelho);
+    color: var(--fundo-primario);
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+}
+
+.formulario__direitos {
+    color: var(--cinza-claro);
+}
